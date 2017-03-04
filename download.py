@@ -23,7 +23,7 @@ headers = {
     'Referer': 'https://douban.fm/mine/',
     'Accept-Encoding': 'gzip, deflate, sdch, br',
     'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2',
-    'Cookie': 'bid=EjWmXoWugW0; flag="ok"; ac="1488648498"; dbcl2="47452891:iiEVG8FgoEE"; ck=BeiO; _ga=GA1.2.127957178.1488326447; _gat=1'}
+    'Cookie': '<==  在这里填入你douban.fm的Cookie  ==>'}
 
 ################################################################################################################################################################################
 

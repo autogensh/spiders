@@ -1,0 +1,90 @@
+
+
+// 豆瓣音乐下载器
+
+// 获取红心音乐的sid列表
+https://douban.fm/j/v2/redheart/basic
+Content-Type: application/x-www-form-urlencoded
+Referer: https://douban.fm/
+Cookie: openExpPan=Y; sawred=1; flag="ok"; ac="1459705197"; bid="CnWnThzg4zU"; _pk_id.100002.6447=50f5935e87c98c45.1444967933.48.1459734004.1459599036.; dbcl2="47452891:viXbMBYJ2Y8"; fmNlogin="y"; ck="4CE7"; _ga=GA1.2.1174244995.1444967933; _gat=1
+Cookie:
+openExpPan=Y;
+sawred=1;
+flag="ok";
+ac="1459705197";
+bid="CnWnThzg4zU";
+_pk_id.100002.6447=50f5935e87c98c45.1444967933.48.1459734004.1459599036.;
+dbcl2="47452891:viXbMBYJ2Y8";
+fmNlogin="y";
+ck="4CE7";
+_ga=GA1.2.1174244995.1444967933;
+_gat=1
+
+{
+	"description": "",
+	"collected_count": 0,
+	"creator": {
+		"url": "https:\/\/www.douban.com\/people\/47452891\/",
+		"picture": "https://img6.douban.com\/icon\/user_normal.jpg",
+		"id": "47452891",
+		"name": "小幽"
+	},
+	"offshelf_alert": "部分红心歌曲版权洽谈中，暂时不能收听，等待它们浮出海面的同时，去收获更多新的红心吧",
+	"title": "我的红心歌曲",
+	"cover": "",
+	"updated_time": "2016-04-04 01:41:09",
+	"is_collected": true,
+	"rec_reason": "",
+	"created_time": "",
+	"can_play": true,
+	"type": -1,
+	"id": -1,
+	"songs": [{
+		"update_time": 1447072194,
+		"playable": true,
+		"like": "1",
+		"sid": "698310"
+	}]
+}
+
+// 获取单首红心歌曲
+https://douban.fm/j/v2/redheart/songs
+POST: sids=1385082&kbps=192&ck=4CE7
+Origin: https://douban.fm
+Referer: https://douban.fm/
+Cookie: openExpPan=Y; sawred=1; flag="ok"; ac="1459705197"; bid="CnWnThzg4zU"; _pk_id.100002.6447=50f5935e87c98c45.1444967933.48.1459734004.1459599036.; dbcl2="47452891:viXbMBYJ2Y8"; fmNlogin="y"; ck="4CE7"; _ga=GA1.2.1174244995.1444967933; _gat=1
+openExpPan=Y;
+sawred=1;
+flag="ok";
+ac="1459705197";
+bid="CnWnThzg4zU";
+_pk_id.100002.6447=50f5935e87c98c45.1444967933.48.1459734004.1459599036.;
+dbcl2="47452891:viXbMBYJ2Y8";
+fmNlogin="y";
+ck="4CE7";
+_ga=GA1.2.1174244995.1444967933;
+_gat=1
+[{
+	"status": 0,
+	"picture": "https://img6.douban.com\/lpic\/s2813058.jpg",
+	"artist": "Chris Garneau",
+	"alert_msg": "",
+	"sha256": "ff9f98e017525d71cc770e7d3a5407d3c888058d8f110da9c5d2ca717ac9f04c",
+	"albumtitle": "C-Sides",
+	"url": "https:\/\/mr7.doubanio.com\/de08153fe00753d9fd8f60bc32205d58\/0\/fm\/song\/p1385082_128k.mp3",
+	"title": "The Runt",
+	"subtype": "",
+	"length": 254,
+	"sid": "1385082",
+	"singers": [{
+		"related_site_id": 101342,
+		"is_site_artist": false,
+		"id": "12431",
+		"name": "Chris Garneau"
+	}],
+	"aid": "2350773",
+	"file_ext": "mp3",
+	"album": "\/subject\/2350773\/",
+	"kbps": "128",
+	"ssid": "1bf7"
+}]

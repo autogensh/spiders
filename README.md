@@ -4,9 +4,8 @@
 B站壁纸爬虫
 
 #### 1.1 功能
-下载官方账号[哩哔哩哔壁纸娘](https://space.bilibili.com/6823116/album)发布的所有图片
-
-下载文件会保存在 bilibili/image目录下
++ 下载官方账号[哩哔哩哔壁纸娘](https://space.bilibili.com/6823116/album)发布的所有图片
++ 下载文件会保存在 bilibili/image目录下
 
 ----------
 
